@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+nav{
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+}
+
+.logo{
+    width: 10%;
+    padding: 20px 0 0 20px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 12px;
+    font-family: gotham;
+    font-weight: lighter;
+     color: rgb(53, 69, 89);
+    
+}
+
+nav ul li a:hover{
+    color: #ffd700;
+} 
+
+.nav-link{
+  color: rgb(53, 69, 89);
+  transition: .3s ease-in-out;  
+}
+
+
+.nav-linka{
+    color: rgb(255, 194, 57);
+}
+
+.nav-link :hover{
+    color: rgb(255, 194, 57); 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* first */
+.billboard1{
+    padding-top: 200px;
+    
+}
+
+.hello{
+    color: rgb(53, 69, 89);
+    font-weight: 300;
+}
+
+.name{
+    color: rgb(255, 194, 57);
+    font-family: monospace;
+    margin-top: 30px;
+}
+
+.title{
+    color: rgb(53, 69, 89);
+    font-weight: 300; 
+    margin-top: 30px; 
+}
+
+p{
+  color: rgb(53, 69, 89);
+    font-weight: 300; 
+    font-family: monospace; 
+}
+.dm{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.button{
+    background-color: rgb(53, 69, 89); 
+    color: rgb(255, 194, 57);
+    border-radius: 3px;
+    padding: 10px 5px;
+    padding-top: 10px;
+}
+
+.button:hover{
+    color:rgb(224, 226, 225) ; 
+}
+
+
+
+
+
+/* second */
+.billboard2{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(224, 226, 225) ;
+    height: 100vh;
+    margin-top: 150px;
+
+}
+
+.about-img{
+    margin-bottom: 20px;
+}
+
+.about{
+    padding: 60px 0px 70px 650px;
+    color: rgb(255, 194, 57);
+    font-family: monospace;
+
+    
+}
+
+
+
+
+
+
+/* third */
+
+.billboard3{
+     height: 100vh;
+     margin-top: 50px;
+}
+
+
+.pic2{
+    padding-top: 50px;
+    
+    
+}
+
+.single-box{
+    border: 1px solid rgb(255, 194, 57);
+    height: 270px;
+    background-color:rgb(248, 248, 248) ;
+    border-radius:5% ;
+    
+    
+}
+.single-box1{
+    border: 1px solid rgb(255, 194, 57);
+    height: 270px;
+    background-color:rgb(248, 248, 248) ;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+
+.content:hover{
+    color: rgb(255, 194, 57); 
+}
+.content{
+    padding: 20px 0px 0px 10px;
+}
+
+.fas.fa-bullhorn {
+    color: rgb(255, 194, 57);
+    margin-bottom: 50px;
+    font-size: 28px;
+  }
+
+  .marketing-strategy-icon {
+    width: 50px;
+    height: 50px;
+    background-color:rgb(255, 194, 57);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fas.fa-lightbulb {
+    color:rgb(255, 194, 57);
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+   
+  .fas.fa-search {
+    font-size: 28px;
+    color: rgb(255, 194, 57);
+    margin-bottom: 50px;
+  }
+
+  .fas.fa-chart-bar {
+    font-size: 28px;
+    color:rgb(255, 194, 57) ;
+    margin-bottom: 50px;
+  }
+
+
+/* forth */
+
+
+.people{
+    padding-left: 700px;
+}
+
+.single-box2{
+    border: 1px  solid rgb(53, 69, 89);
+    height: 340px;
+    background-color:    #ffd700 ;
+    margin-top: 50px;
+    border-radius: 5% 0% 5% 0%;
+}
+
+.single-box3{
+    border: 1px  solid rgb(53, 69, 89);
+    height: 340px;
+    background-color:  rgb(224, 226, 225);
+    margin-top: 100px;
+    border-radius: 5% 0% 5% 0%;
+}
+
+.content1{
+    padding: 20px 0px 0px 10px;
+}
+
+
+ .shape{
+   padding-left: 253px;
+   
+   
+}
+
+
+/* fifth */
+.billboard5{
+    margin-bottom: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(53, 69, 89);
+  }
+  
+  input,
+  textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgb(224, 226, 225);
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(53, 69, 89); 
+    color: rgb(255, 194, 57);
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(117, 92, 37);
+  }
+
+  .two{
+    border: 1px solid rgb(255, 194, 57);
+    margin-top: 0px;
+    width: 120px;  
+    
+}
+
+.mail{
+    display: flex;
+    color: rgb(53, 69, 89);
+    
+    
+}
+.dot{
+    margin-left: 20px;
+}
+.fab{
+   
+    
+    
+    color: rgb(255, 194, 57);
+}
+
+.fas{
+    color: rgb(255, 194, 57);
+}
+
+.icon{
+    display: inline;
+   
+}
+h4{
+    color: rgb(53, 69, 89);  
+}
+
+.col-md-4-life{
+    margin-top: 120px;
+} 
+
+
+footer{
+    background-color:  rgb(255, 194, 57);
+    text-align: center;
+    color: rgb(53, 69, 89);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+   
+}
+
+
+
+
+@media (max-width:575px){
+   
+}
+
+
+
+
+  @media (min-width:768px) and (max-width:991px){
+
+    
+      
+       
+
+       
+
+      
+  }
